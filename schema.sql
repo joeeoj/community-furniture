@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS sofas (
+    id INTEGER PRIMARY KEY AUTOINCREMENT
+    unique_id VARCHAR(32) UNIQUE,
+    title VARCHAR,
+    sold BOOLEAN,
+    price FLOAT,
+    url VARCHAR
+);
